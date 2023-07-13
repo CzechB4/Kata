@@ -2,6 +2,7 @@ package calc;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 class calculator {
     public static void main(String[] args) {
@@ -10,7 +11,6 @@ class calculator {
         String userInput = console.nextLine();
 
         System.out.println(calc(userInput));
-
     }
     public static String calc(String input) {
         String[] parts = input.split(" ");
