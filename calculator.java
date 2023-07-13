@@ -5,7 +5,11 @@ import java.util.Map;
 
 class calculator {
     public static void main(String[] args) {
-        System.out.println(calc("VI / II"));
+        Scanner console = new Scanner(System.in);
+        System.out.println("Введите выражение:");
+        String userInput = console.nextLine();
+
+        System.out.println(calc(userInput));
 
     }
     public static String calc(String input) {
